@@ -15,7 +15,7 @@ the physics simulation's output to a SceneKit scene's nodes.
   s.source           = { :git => 'https://github.com/AdamEisfeld/PhyKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
-  s.osx.deployment_target = '11.0'
+  s.osx.deployment_target = '10.15'
 
   s.vendored_frameworks = "Framework/PhyKit.xcframework"
 
